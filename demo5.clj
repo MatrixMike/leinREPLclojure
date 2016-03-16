@@ -11,5 +11,6 @@
       (>= temperature 100) "boiling"
       true "neither")))
       
+   ;; demo reading from stdin 
       
       

@@ -10,6 +10,6 @@
         
         
    (when is-weekend (println "play"))
-(when-not is-weekend (println "work") (println "sleep"))
+(when-not is-weekend (println "\n") (println "work") (println "sleep"))  ;; force a newline even in REPL
 
      

@@ -14,5 +14,5 @@
     (condp instance? value
       Number (* value 2)
       String (* (count value) 2))))
-      
+    ;; useful  
       

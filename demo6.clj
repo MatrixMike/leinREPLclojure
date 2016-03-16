@@ -8,5 +8,5 @@
 
 (println (time (factorial-1 5))) ; -> "Elapsed time: 0.071 msecs"\n120
 
-
+;; factorial
 

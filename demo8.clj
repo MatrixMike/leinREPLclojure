@@ -20,4 +20,4 @@
 
 (println (nth f-seq 2)) ; uses cached result -> 2.0
 
-
+;; investigate further
