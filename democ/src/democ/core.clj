@@ -1,13 +1,17 @@
+;;============================
 (ns democ.core
-	(:gen-class )
-	)
-	
+(:gen-class)
+;;
+  (:import [javax.swing JPanel JFrame JLabel]
+           [java.awt Dimension])
+ )
+ 
+
 ;;	(
  ;; (:require [clojure.string :as su])
   ; assumes this dependency: [org.clojure/math.numeric-tower "0.0.1"]
 ;;  (:use [clojure.math.numeric-tower :only (gcd, sqrt)])
-  (:import      ;;   (java.text NumberFormat)
-     (javax.swing JFrame JLabel));;    )
+ ;; (:import      ;;   (java.text NumberFormat)   (javax.swing JFrame JLabel))
 
 ;;(println (su/join "$" [1 2 3])) ; -> 1$2$3
 ;;(println (gcd 27 72)) ; -> 9
