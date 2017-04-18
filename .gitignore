@@ -13,3 +13,8 @@ pom.xml
 /.repl
 /out
 /.nrepl-port
+/target/*.jar
+/target/classes
+/target/stale
+
+
