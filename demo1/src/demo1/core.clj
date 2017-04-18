@@ -14,9 +14,9 @@
 (.. calendar getTimeZone getDisplayName) ; -> "Central Standard Time"
 
 (doto calendar
-  (.set Calendar/YEAR 1981)
-  (.set Calendar/MONTH Calendar/AUGUST)
-  (.set Calendar/DATE 1))
+  (.set Calendar/YEAR 2017)
+  (.set Calendar/MONTH Calendar/APRIL)
+  (.set Calendar/DATE 18))
 (def formatter (java.text.DateFormat/getDateInstance))
 (.format formatter (.getTime calendar)) ; -> "Aug 1, 1981"
 
