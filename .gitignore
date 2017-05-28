@@ -18,3 +18,5 @@ pom.xml
 /target/stale
 
 
+*.extract-native-dependencies
+*.properties

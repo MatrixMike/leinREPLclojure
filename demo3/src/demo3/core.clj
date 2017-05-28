@@ -10,7 +10,10 @@
   (if is-weekend
     (println "play")
     (do (println "work")
-        (println "sleep"))))
+        (println "sleep")
+        )
+        )
+        )
         
         
 (defn -main [& args]        
