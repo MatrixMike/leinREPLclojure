@@ -2,6 +2,8 @@
   :description "FIXME: write description"
   :dependencies [[org.clojure/clojure "1.8.0"]]
   
-    :main demo3.core)
+    :main demo3.core
+    :aot
+    :all)
     
   
