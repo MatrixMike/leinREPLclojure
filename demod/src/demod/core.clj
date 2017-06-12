@@ -1,7 +1,7 @@
 (ns demod.core
 	(:gen-class)
   (:require [clojure.string :as str])
-  (:require [clojure.set :as set])
+  (:require [clojure.set :as set1])
 )
 ;
 ;   needs the intersection definitions file - ATM I copy the Rich Hickey text into REPL but need to use proper command 
@@ -20,7 +20,7 @@
 	(def ws1 (set word1))
 	(def ws2 (set word2))
 	;; test for word1 eq word2 and ignore if it is 
-	(println(str "\n" word1 "+" word2 (set/intersection ws1 ws2)  ))
+	(println(str "\n" word1 "+" word2 (set1/intersection ws1 ws2)  ))
 	)
 ;
 
