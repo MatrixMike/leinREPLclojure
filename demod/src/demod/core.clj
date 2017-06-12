@@ -20,7 +20,7 @@
 	(def ws1 (set word1))
 	(def ws2 (set word2))
 	;; test for word1 eq word2 and ignore if it is 
-	(println (str "\n" word1 "+" word2 (clojure.set/intersection ws1 ws2)  ))
+	(println (str "\n" word1 "+" word2 (set/intersection ws1 ws2)  ))
 	)
 ;
 
@@ -28,6 +28,6 @@
 (for [a newwords  b newwords ]    ( crossw2 a b))
 ;
 (defn -main [& args]
- (println(crossw2 "Mike" "Hewitt"))
-; (println (newwords))
-)
+  (println(crossw2 "Mike" "Hewitt"))
+
+  (println(for [a newwords  b newwords ]    ( crossw2 a b))))
