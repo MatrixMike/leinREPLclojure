@@ -1,4 +1,4 @@
-(defproject demod "1.0.0-SNAPSHOT"
+(defproject demod "1.0.1-SNAPSHOT"
   :description "start of crossword idea"
   :dependencies [[org.clojure/clojure "1.8.0"]]
   

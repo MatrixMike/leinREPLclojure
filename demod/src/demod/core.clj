@@ -1,8 +1,9 @@
 (ns demod.core
 	(:gen-class)
-)
- (:require [clojure.string :as str])
 
+  (:require [clojure.string :as str])
+  (:require [clojure.set :as set])
+)
 ;
 ;   needs the intersection definitions file - ATM I copy the Rich Hickey text into REPL but need to use proper command 
 ; to treat the .clj file like an 'include' file
