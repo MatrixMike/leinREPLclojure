@@ -14,13 +14,18 @@
 (def word5 "positive")
 (def word6 "negative")
 (def word7 "zinc")
+;(def wordlist ("storage" "capacitor"))
+;(def wordlist ("storage" "capacitor"))
+
 ; does odd things with word negative ... maybe a keyword
 ;
 (defn crossw2 [word1 word2]
 	(def ws1 (set word1))
 	(def ws2 (set word2))
-	;; test for word1 eq word2 and ignore if it is 
-	(println(str "\n" word1 "+" word2 (set1/intersection ws1 ws2)  ))
+	;; test for word1 eq word2 and ignore if it is (= word1 word2
+  (if (= word1 word2) (println "same"))
+  
+	(println(str word1 "+" word2 (set1/intersection ws1 ws2)  ))
 	)
 ;
 

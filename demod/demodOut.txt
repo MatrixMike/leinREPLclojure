@@ -1,2 +1,58 @@
-
-Mike+Hewitt#{\e \i}nil
+Mike+Hewitt#{\e \i}
+nil
+(same
+storage+storage#{a e g o r s t}
+storage+capacitor#{a o r t}
+storage+positive#{e o s t}
+storage+tantalum#{a t}
+storage+electrolytic#{e o r t}
+storage+negative#{a e g t}
+storage+zinc#{}
+nil nil nil nil nil nil capacitor+storage#{a o r t}
+same
+capacitor+capacitor#{a c i o p r t}
+capacitor+positive#{i o p t}
+capacitor+tantalum#{a t}
+capacitor+electrolytic#{c i o r t}
+capacitor+negative#{a i t}
+capacitor+zinc#{c i}
+nil nil nil nil nil nil nil positive+storage#{e o s t}
+positive+capacitor#{i o p t}
+same
+positive+positive#{e i o p s t v}
+positive+tantalum#{t}
+positive+electrolytic#{e i o t}
+positive+negative#{e i t v}
+positive+zinc#{i}
+nil nil nil nil nil nil nil tantalum+storage#{a t}
+tantalum+capacitor#{a t}
+tantalum+positive#{t}
+same
+tantalum+tantalum#{a l m n t u}
+tantalum+electrolytic#{l t}
+tantalum+negative#{a n t}
+tantalum+zinc#{n}
+nil nil nil nil nil nil nil electrolytic+storage#{e o r t}
+electrolytic+capacitor#{c i o r t}
+electrolytic+positive#{e i o t}
+electrolytic+tantalum#{l t}
+same
+electrolytic+electrolytic#{c e i l o r t y}
+electrolytic+negative#{e i t}
+electrolytic+zinc#{c i}
+nil nil nil nil nil nil nil negative+storage#{a e g t}
+negative+capacitor#{a i t}
+negative+positive#{e i t v}
+negative+tantalum#{a n t}
+negative+electrolytic#{e i t}
+same
+negative+negative#{a e g i n t v}
+negative+zinc#{i n}
+nil nil nil nil nil nil nil zinc+storage#{}
+zinc+capacitor#{c i}
+zinc+positive#{i}
+zinc+tantalum#{n}
+zinc+electrolytic#{c i}
+zinc+negative#{i n}
+same
+zinc+zinc#{c i n z}
