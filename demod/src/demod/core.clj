@@ -35,6 +35,8 @@
 ;
 (defn -main [& args]
   (println(crossw2 "Mike" "Hewitt"))
+ ;  (if (= word7 word8) (
+    (println(crossw2 word8 word7))
 
   (print(for [a newwords  b newwords ]    (  crossw2 a b)))
   )
