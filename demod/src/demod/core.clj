@@ -23,7 +23,7 @@
 	(def ws1 (set word1))
 	(def ws2 (set word2))
 	;; test for word1 eq word2 and ignore if it is (= word1 word2
-  (if (= word1 word2) (println "same"))
+  (if (= word1 word2) (println "same") (println "diff"))
   
 	(println(str word1 "+" word2 (set1/intersection ws1 ws2)  ))
 	)
