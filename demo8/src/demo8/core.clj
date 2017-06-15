@@ -39,5 +39,5 @@
 (defn -main [& args] 
 
 (println "hi there") ;; (System/exit 0))   
-(println (nth f-seq 2))
+(println (nth f-seq 4))
 )
