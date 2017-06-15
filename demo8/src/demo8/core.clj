@@ -1,3 +1,13 @@
+(ns demo8.core
+
+ (:gen-class)
+;;  (:import utils.demo)
+  (:import [javax.swing JPanel JFrame]
+           [javax.swing SwingUtilities]
+           [java.awt Dimension]
+           [java.awt Color]
+           [utils.demo])
+)  
 (defn f
   "square the argument and divide by 2"
   [x]
@@ -21,3 +31,13 @@
 (println (nth f-seq 2)) ; uses cached result -> 2.0
 
 ;; investigate further
+
+
+
+
+
+(defn -main [& args] 
+
+(println "hi there") ;; (System/exit 0))   
+(println (nth f-seq 4))
+)
