@@ -15,10 +15,10 @@
   (/ (* x x) 2.0))
 
 ; Create an infinite sequence of results from the function f
-; for the values 0 through infinity.
+; for the values 0 through infinity.  => (iterate inc 0)
 ; Note that the head of this sequence is being held in the binding "f-seq".
 ; This will cause the values of all evaluated items to be cached.
-(def f-seq (map f (iterate inc 0)))
+(def f-seq (map f (iterate inc 0)))   ;; try (map f (iterate inc 0))   in REPL
 
 ; Force evaluation of the first item in the infinite sequence, (f 0).
 (println "first is" (first f-seq)) ; -> 0.0
