@@ -40,3 +40,7 @@
 
   (print(for [a newwords  b newwords ]    (  crossw2 a b)))
   )
+; if two words intersect {non null result} then find a place where they do 
+; and try an intersection with other word in list 
+;
+;
