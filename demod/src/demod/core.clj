@@ -20,7 +20,7 @@
 
 ; does odd things with word negative ... maybe a keyword
 ;
-(defn crossw2 [word1 word2]
+(defn crossw2 "show intersection of two words" [word1 word2]
 	(def ws1 (set word1))
 	(def ws2 (set word2))
 	;; test for word1 eq word2 and ignore if it is (= word1 word2) else print 
@@ -30,7 +30,8 @@
 	)
 ;
 
-(def newwords ( seq [word1 word2 word5 word4 word3 word6 word7 word8]))
+(def newwords "create sequence of test words" 
+  ( seq [word1 word2 word5 word4 word3 word6 word7 word8]))
 (for [a newwords  b newwords ]    ( crossw2 a b))
 ;
 (defn -main [& args]

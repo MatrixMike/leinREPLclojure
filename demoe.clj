@@ -14,3 +14,11 @@
 
 ;;  enter directory
 (fn [x] (+ x 1))
+
+(type :test)
+
+(def person1 {:person/first "Han"
+ :person/last "Solo"
+ :person/ship {:ship/name "Millennium Falcon"
+               :ship/model "YT-1300f light freighter"}})
+               
