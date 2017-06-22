@@ -15,7 +15,9 @@
 ; output is "Hello, World!"
 
 (defn -main [& args]
- (.start (Thread. #(delayed-print 2000 ", World!"))) ; prints 2nd
+ (.start (Thread. #(delayed-print 20000 ", World!"))) ; prints 2nd
+ ;; need to flush print q here
+ (.start (Thread. #(delayed-print 20000 ", World!"))) ; prints 2nd
 )
 
 
