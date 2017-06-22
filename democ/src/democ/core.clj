@@ -21,12 +21,13 @@
     
 ; See the screenshot that follows this code.
 
-(defn -main [& args]
+(defn -main "" [& args]
 (doto (JFrame. "Hello")
+  (println (su/join "$" [1 2 3])) ; -> 1$2$3
   (.add (JLabel. "Hello, World!"))
   (.pack)
   (.setDefaultCloseOperation JFrame/EXIT_ON_CLOSE)
   (.setVisible true))
-  (println (su/join "$" [1 2 3])) ; -> 1$2$3
+
 )
 

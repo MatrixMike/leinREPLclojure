@@ -6,6 +6,7 @@
 ;
 ;   needs the intersection definitions file - ATM I copy the Rich Hickey text into REPL but need to use proper command 
 ; to treat the .clj file like an 'include' file
+; started to use documentation feature - to access this try (doc crossw2) ; tab complete works on my Linux Mint 17.3 Rosa
 
 (def word1 "storage")
 (def word2 "capacitor")
@@ -34,7 +35,7 @@
   ( seq [word1 word2 word5 word4 word3 word6 word7 word8]))
 (for [a newwords  b newwords ]    ( crossw2 a b))
 ;
-(defn -main [& args]
+(defn -main "documentation for main => intersection of words" [& args]
   (println(crossw2 "Mike" "Hewitt"))
  ;  (if (= word7 word8) (
     (println(crossw2 word8 word7))
