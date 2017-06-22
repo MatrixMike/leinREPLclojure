@@ -32,12 +32,8 @@
 
 ;; investigate further
 
-
-
-
-
 (defn -main [& args] 
 
-(println "hi there") ;; (System/exit 0))   
-(println (nth f-seq 4))
+    (println "hi there") ;; (System/exit 0))   
+    (println (nth f-seq 4))
 )

@@ -4,6 +4,7 @@
 
 
 (import '(java.util Calendar GregorianCalendar))
+(let is-weekend false)
 (let [gc (GregorianCalendar.)
       day-of-week (.get gc Calendar/DAY_OF_WEEK)
       is-weekend (or (= day-of-week Calendar/SATURDAY) (= day-of-week Calendar/SUNDAY))]

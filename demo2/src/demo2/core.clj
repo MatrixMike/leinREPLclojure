@@ -1,5 +1,6 @@
 (ns demo2.core
-	(:gen-class ))
+	(:gen-class )
+  )
 
 (defn delayed-print [ms text]
   (Thread/sleep ms)
