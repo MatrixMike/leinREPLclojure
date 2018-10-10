@@ -1,0 +1,374 @@
+    1  anjuta
+    2  uname -a
+    3  inxi
+    4  ifconfig 
+    5  route -n
+    6  gnome-disks
+    7  df -h
+    8  inxi -F
+    9  mkdir thisPC
+   10  cd thisPC/
+   11  dmesg > dmesg1.txt
+   12  uname -a > unamea.txt
+   13  ls -lc
+   14  cd ~/gtkbook/gtkbook/
+   15  ls -lc
+   16  make
+   17  make  clean
+   18  make
+   19  cd chapter_13
+   20  ls -lc
+   21  make hangman
+   22  ls -lc
+   23  ./hangman 
+   24  make pimg
+   25  make ping
+   26  ls -lc
+   27  ./ping 
+   28  make calendar
+   29  ls -lc
+   30  ./calendar 
+   31  cd ../chapter_12
+   32  ls -lc
+   33  make
+   34  make drawingareas
+   35  ls -lc
+   36  ./drawingareas 
+   37  make entrycompletion
+   38  ls -lc
+   39  ./entrycompletion 
+   40  make printing
+   41  ls -lc
+   42  cd ../chapter_11
+   43  ls -lc
+   44  make mymarquee
+   45  ls -lc
+   46  cd ../chapter_10
+   47  ls -lc
+   48  cd ../chapter_9
+   49  ls -lc
+   50  cd ../chapter_8/
+   51  ls -lc
+   52  ./treestore 
+   53  tree
+   54  ls -lc
+   55  cd ../chapter_13
+   56  ls -lc
+   57  chmod +111 hangman.c 
+   58  ls -lc
+   59  chmod 222 hangman.c 
+   60  ls -lc
+   61  chmod 666 hangman.c 
+   62  ls -lc
+   63  mv hangman.c hangman.old
+   64  mv hangman1.c hangman.c
+   65  ls -lc
+   66  make hangman
+   67  ls -lc
+   68  ./hangman 
+   69  cd ..
+   70  tree
+   71  cd ~/gtkbook/gtkbook/
+   72  ls -lc
+   73  make
+   74  ls -lc
+   75  cd chapter_8/
+   76  ls -lc
+   77  make celldatafunction1
+   78  ./celldatafunction1
+   79  cd ../exercises/
+   80  ls -lc
+   81  cd ~
+   82  ls
+   83  mkdir thisPC
+   84  cd thisPC/
+   85  ls
+   86  more < lsls.txt 
+   87  lpr  lsls.txt 
+   88  lsusb
+   89  mount
+   90  cd /run/media/mikeh/gtk-manj-686/
+   91  ls -lc
+   92  ls -lc  > ~/thisPC/lsls.txt
+   93  cd ~/gtkbook/gtkbook/
+   94  ls -lc
+   95  make
+   96  pwd
+   97  cd ..
+   98  make
+   99  ls -lc
+  100  cd ..
+  101  ls -lc
+  102  cd gtkbook/gtkbook/
+  103  ls -lc
+  104  cd chapter_12
+  105  ls -lc
+  106  make printing
+  107  make recentfiles
+  108  ls -lc
+  109  ./recentfiles 
+  110  ./entrycompletion 
+  111  ./drawingareas 
+  112  cd ../chapter_13
+  113  ls -lc
+  114  cat Makefile 
+  115  make
+  116  make ping
+  117  make calendar
+  118  ls -lc
+  119  make navigation
+  120  ls -lc
+  121  cd ../exercises/
+  122  ls -lc
+  123  make
+  124  make exercise11-1.c 
+  125  make exercise11-1
+  126  ls -lc
+  127  ./exercise11-1 
+  128  make mymarquee
+  129  egrep -h
+  130  grep marquee *.c
+  131  grep main *.c
+  132  grep marquee *.c
+  133  cd ../ff/
+  134  ls -lc
+  135  cd firefox/
+  136  ls -lc
+  137  ./updater 
+  138  ./run-mozilla.sh 
+  139  sudo run-mozilla.sh 
+  140  sudo ./run-mozilla.sh 
+  141  scala
+  142  java -version
+  143  scala
+  144  scala
+  145  git
+  146  history 
+  147  history  | grep git
+  148  git init scala
+  149  git show
+  150  git scala show
+  151  git  show scala 
+  152  git show
+  153  pwd
+  154  cd ..
+  155  cd ..ls -lct
+  156  cd ..
+  157  ls -lct
+  158  cd mikeh/
+  159  ls -lct
+  160  lpstat 
+  161  lpq
+  162  java -version
+  163  scala -version
+  164  mount
+  165  cd ../scala/
+  166  java -version
+  167  ls -lct
+  168  scalac steveGreen.scala 
+  169  ls -lct
+  170  scala BikeGears
+  171  hp-doctor 
+  172  ls -lct
+  173  scala BikeGears
+  174  history 
+  175  ls -lct
+  176  scalac steveGreen.scala 
+  177  ls -lct
+  178  gedit
+  179  ls -lct
+  180  scalac gears.scala 
+  181  ls -lct
+  182  scala BikeGears
+  183  cd ~/thisPC/
+  184  ls -lct
+  185  dmesg > dmesg1.txt
+  186  ls -lct
+  187  uname -a
+  188  java -version
+  189  cd ~/scala/
+  190  ls -lct
+  191  scala
+  192  javap
+  193  java -version
+  194  scala
+  195  scala  -version
+  196  ls -lct
+  197  scalac gears.scala 
+  198  ls -lct
+  199  cd fromW7/
+  200  ls -lct
+  201  scala BikeGears
+  202  scala ../BikeGears
+  203  cd ..
+  204  scala BikeGears
+  205  cd ~/
+  206  ls
+  207  cd scala/
+  208  ls
+  209  ls -lc
+  210  cd fromW7/
+  211  ls -lc
+  212  cd ~/
+  213  ls -lc
+  214  scala
+  215  cd ~/
+  216  ls -lc
+  217  cd scala/
+  218  ls -lc
+  219  cd ../newscala/
+  220  ls -lc
+  221  scalac *.scala
+  222  ls -lc
+  223  cd scala-master/
+  224  ls -lc
+  225  scalac *.scala
+  226  ls -lc
+  227  scalac *.scala
+  228  scalac *.scala -deprecation
+  229  ls -lc
+  230  scala Test1
+  231  scala Test2
+  232  scala Test3
+  233  ls -lc
+  234  clojure
+  235  nm-applet 
+  236  ls -lc
+  237  pwd
+  238  cd ..
+  239  ls -lc
+  240  mkdir clojure
+  241  ls -lc
+  242  cd clojure/
+  243  ls -lc
+  244  cd clojure-master/
+  245  ls -lc
+  246  clojure
+  247  pacman
+  248  pacman -help
+  249  pacman -U 
+  250  sudo pacman -U 
+  251  sudo apt-get install clojure
+  252  apt-get
+  253  cd ~/scala/
+  254  ls -lc
+  255  scala
+  256  ls -lc
+  257  uname  -a
+  258  pwd
+  259  cd ~/
+  260  ls -lc
+  261  cd thisPC/
+  262  ls -lc
+  263  dmesg > dmesg2.txt 
+  264  lsusb
+  265  more < dmesg2.txt 
+  266  gksu
+  267  kdesu
+  268  gksu
+  269  cd ~/clojure/clojure-master/
+  270  clojure
+  271  clojure1.4
+  272  gksu
+  273  cd ~/thisPC/
+  274  ls -lc
+  275  uname  -a  > unamea1.txt
+  276  ls -lc
+  277  cat unamea1.txt 
+  278  git
+  279  cd /var/log/
+  280  ls -lc
+  281  more < pacman.log 
+  282  ls -lc
+  283  more < lastlog 
+  284  ls -lc
+  285  more < pamac.log 
+  286  ls -lc
+  287  more < Xorg.0.log
+  288  cd ~/
+  289  pwd
+  290  git
+  291  git status
+  292  git clone https://github.com/MatrixMike/lilypad.git
+  293  ls -lc
+  294  cd lilypad/
+  295  ls -lc
+  296  cd ~/
+  297  ls -lc
+  298  mkdir newArduino
+  299  ls -lc
+  300  cd newArduino/
+  301  ls -lc
+  302  cd arduino-1.6.5/
+  303  ls -lc
+  304  ./arduino 
+  305  lsusb
+  306  uname -a
+  307  clojure
+  308  lein
+  309  cd ~/
+  310  pwd
+  311  git clone https://github.com/MatrixMike/clojure.git
+  312  cd clojure/
+  313  ls -lc
+  314  cd clojure-master/
+  315  ls -lc
+  316  git status
+  317  clojure
+  318  cd ~/
+  319  git clone https://github.com/MatrixMike/clojure.git
+  320  git clone https://github.com/MatrixMike/leinREPLclojure.git
+  321  cd leinREPLclojure/
+  322  tree
+  323  sudo pacman -Syyu
+  324  lein
+  325  tree
+  326  cd ~/leinREPLclojure/
+  327  ls -lctr
+  328  sudo rm /var/lib/pacman/db.lck
+  329  sudo pacman-mirrors -g
+  330      Kernel: 4.4.5x64/4.3.6x64/4.2.8.4x64/4.1.19x64
+  331  Re: invalid corrupted package PGP signature
+  332  « Reply #6 on: 26. January 2015, 14:04:03 »
+  333  Yeah, go ahead and try removing the db.lock:
+  334  Code: [Select]
+  335  sudo rm /var/lib/pacman/db.lck
+  336  And then:
+  337  Code: [Select]
+  338  sudo pacman-mirrors -g
+  339  sudo pacman-key --refresh-keys
+  340  Re: invalid corrupted package PGP signature
+  341  « Reply #6 on: 26. January 2015, 14:04:03 »
+  342  Yeah, go ahead and try removing the db.lock:
+  343  Code: [Select]
+  344  sudo rm /var/lib/pacman/db.lck
+  345  And then:
+  346  Code: [Select]
+  347  sudo pacman-mirrors -g
+  348  df -h
+  349  uname  -a
+  350  lein
+  351  tree
+  352  cd ~/clojure/
+  353  ls -lctr
+  354  cd clojure-master/
+  355  ls -lctr
+  356  clojure crossw2.clj 
+  357  clojure showargs.clj one three two
+  358  pacaur -S leiningen leiningen-completions
+  359  1
+  360  2
+  361  pacaur -S leiningen leiningen-completions
+  362  yaourt -S leiningen leiningen-completions
+  363  lein
+  364  lein version
+  365  cd ~/leinREPLclojure/
+  366  ls -lc
+  367  cd demo1
+  368  tree
+  369  lein uberjar
+  370  tree
+  371  java -jar target/demo1-1.0.1-SNAPSHOT-standalone.jar 
+  372  history 
+  373  cd ~/leinREPLclojure/
+  374  history > history1.txt
