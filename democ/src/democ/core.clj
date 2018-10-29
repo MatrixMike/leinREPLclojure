@@ -5,6 +5,7 @@
   (:import [javax.swing JPanel JFrame JLabel]
            [java.awt Dimension])
   (:require [clojure.string :as su])
+ ;; (:require [clojure.math.numeric-tower :only (gcd, sqrt)])
  )
  
 
@@ -13,9 +14,13 @@
   ; assumes this dependency: [org.clojure/math.numeric-tower "0.0.1"]
 ;;  (:use [clojure.math.numeric-tower :only (gcd, sqrt)])
  ;; (:import      ;;   (java.text NumberFormat)   (javax.swing JFrame JLabel))
+;; https://stackoverflow.com/questions/32386047/greatest-common-divisor-in-clojure
+(defn gcd [a b]
+        (if (zero? b)
+          a
+          (recur b (mod a b))))
 
-
-;;(println (gcd 27 72)) ; -> 9
+(println (gcd 27 72)) ; -> 9
 ;;(println (sqrt 5)) ; -> 2.23606797749979
 ;;  (println (.format (NumberFormat/getInstance) Math/PI)) ; -> 3.142
     
