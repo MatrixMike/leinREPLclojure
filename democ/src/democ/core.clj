@@ -19,9 +19,12 @@
         (if (zero? b)
           a
           (recur b (mod a b)))))
-
-(println (math/gcd 27 72)) ; -> 9
-;;(println (sqrt 5)) ; -> 2.23606797749979
+(def m 27)
+(def n 72)
+(println)
+(println (math/gcd m n)) ; -> 9
+(println (math/lcm m n))
+(println (math/sqrt 5)) ; -> 2.23606797749979
 ;;  (println (.format (NumberFormat/getInstance) Math/PI)) ; -> 3.142
     
 ; See the screenshot that follows this code.
