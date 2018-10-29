@@ -22,5 +22,6 @@
 
 (defn -main [& args]
   (println (.format formatter (.getTime calendar))) ; -> "Aug 1, 1981"
+  (println (.format formatter (.getTime (new GregorianCalendar))))
 )
 

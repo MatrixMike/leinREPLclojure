@@ -11,7 +11,7 @@
 ; executes inside the Thread instead of
 ; while the Thread object is being created.
 (.start (Thread. #(delayed-print 2000 ", World!"))) ; prints 2nd
-(print "Hello") ; prints 1st
+(print "just wait a bit after you see this : Hello") ; prints 1st
 ; output is "Hello, World!"
 
 (defn -main [& args]
