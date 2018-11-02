@@ -1,3 +1,6 @@
+(ns demo6.core
+(:gen-class)
+)
 (defn factorial-1 [number]
   "computes the factorial of a positive integer
    in a way that doesn't consume stack space"
@@ -7,6 +10,9 @@
       (recur (dec n) (* factorial n)))))
 
 (println (time (factorial-1 5))) ; -> "Elapsed time: 0.071 msecs"\n120
-
+(defn -main [& args] 
+(println (factorial-1 5 ))
+  )
+  
 ;; factorial
 
